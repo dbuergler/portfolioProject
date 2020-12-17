@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://cdpn.io/dbuergler/fullpage/MWezQxj -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Mickey Mouse Creature</title>
+  
+  
+  
+  
+<style>
+html {
+    background-color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.head {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 100px; 
+    position: relative;
+    top: 100px;
+    left: 410px;
+
+}
+
+.rightear{
+    width: 85px;
+    height: 85px;
+    background-color: black;
+    border-radius: 100px; 
+    position: relative;
+    bottom: 104px;
+    left: 510px;
+    transform: rotate(-20deg);
+
+}
+
+.leftear {
+    width: 85px;
+    height: 85px;
+    background-color: black;
+    border-radius: 100px; 
+    position: relative;
+    bottom: 189px;
+    left: 377px;
+    transform: rotate(-20deg);
+}
+
+
+.leftface{
+    width: 50px;
+    height: 85px;
+    background-color: white;
+    border-radius: 50%;
+    left: 440px;
+    bottom: 208px;
+    position: relative;
+}
+
+.rightface{
+    width: 50px;
+    height: 85px;
+    background-color: white;
+    border-radius: 50%;
+    left: 480px;
+    bottom: 293px;
+    position: relative;
+}
+
+.chin{
+   width:75px;
+	height: 100px;
+	background-color: #FFF;
+	border-radius: 50%;
+    bottom: 332px;
+    left:427px;
+    position: relative;
+    transform: rotate(-55deg);
+}
+
+.chin-two {
+    width:75px;
+	height: 100px;
+	background-color: #FFF;
+	border-radius: 50%;
+    bottom: 433px;
+    left:470px;
+    position: relative;
+    transform: rotate(-130deg);
+}
+
+#inner-left{
+   width: 5px;
+    height: 20px;
+    border width: 10px 20px;
+    border-style: solid; 
+    border-color: black;
+    border-radius: 52%;
+    z-index: 1;
+    position: relative;
+    left: 54px;
+    top: 30px;
+    background-color: black;
+}
+
+#inner-right {
+  width: 5px;
+    height: 20px;
+    border width: 10px 20px;
+    border-style: solid; 
+    border-color: black;
+    border-radius: 52%;
+    z-index: 1;
+    position: relative;
+    right: 10px;
+    top: 30px;
+    background-color: black;
+}
+
+.nose{
+  width: 40px;
+	height: 20px;
+	background-color: #000;
+	border-radius: 48%;
+	left:468px;
+	bottom:520px;
+  position: relative;
+}
+
+.mouth {
+  width: 50px;
+    height: 10px;
+    border: solid 1px black;
+    border-radius: 0 0 45px 45px;
+    margin: 16px;
+    position: relative;
+    bottom:510px ;
+    left: 447px;
+    background-color: black;
+}
+
+#tongue{
+  width: 20px;
+    height: 2px;
+    border: solid 1px red;
+    border-radius: solid 1px red;
+    position: relative;
+    left: 14px;
+    top: 7px;
+    background-color: red;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <div class="wrapper">
+        <h1>Mickey Mouse</h1>
+        <div class="head"></div>
+    </div>
+        <div class="rightear">
+    </div>
+        <div class="leftear">
+    </div>
+        <div class="leftface">
+          <div id="inner-left"></div>
+    </div>
+        <div class="rightface">
+          <div id="inner-right"></div>
+    </div>
+        <div class="chin">
+    </div>
+        <div class="chin-two"> 
+    </div> 
+        <div class="nose">
+    </div>
+        <div class="mouth">
+          <div id="tongue"></div>
+          
+</div>
+  
+
+  
+  
+  
+  
+
+
+
+
+ 
+</body></html>

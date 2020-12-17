@@ -1,0 +1,176 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: wheat;
+    background-color: #686868;
+    margin: 0;
+}
+
+#logo{
+    float:left;
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+
+.fixed-navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 10;
+    border-radius: 5px;
+    border: solid 1px white;
+    z-index: 1000;
+    font-family:"Courier New", Courier, monospace; 
+}
+
+.jumbotron{
+     background-color: #686868;
+    font-family: "Courier New", Courier, monospace;
+    
+}
+
+.header{
+    text-transform: uppercase;
+    color: wheat;
+
+}
+
+.display-4{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.media-body{
+    background-color:#284B63;
+    font-family: "Courier New", Courier, monospace;
+    color: wheat;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;  
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.mt-0{
+    font-size: 1.5em;
+    font: outline;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color:wheat !important;
+    background-color: transparent;
+}
+
+#skillsRow{
+    padding-bottom: 5rem;
+}
+
+.row{
+    margin: 0;
+}
+
+#skillsRow img{
+    height: 5rem;
+    width: auto;
+    margin: 1rem;
+    margin-left: 103px;
+    
+}
+
+img{
+    vertical-align: middle;
+    align-items: center;
+}
+
+.skills-title{
+    text-decoration: underline;
+}
+
+#projects-section{
+    text-align: center;
+    padding-bottom: 2rem;
+    justify-self: center;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rowheading{
+    margin: 0;
+}
+
+.accomplishments{
+    text-decoration: underline;
+}
+
+.projects {
+    border-top: 0;
+    padding: 0;
+    margin-bottom: 2.25 em;
+}
+
+#mickey-row{
+    background-color: #284B63;
+    border-radius: 5px;
+}
+
+#mickey-image{
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+#kast-row{
+    background-color: #284B63;
+    border-radius: 5px;
+}
+
+#kast-image{
+    margin-top: 100px;
+    margin-left: -10px;
+}
+
+#repls-row{
+    background-color: #284B63;
+    border-radius: 5px;
+}
+
+#repls-image{
+    margin-top: 65px;
+    margin-left: -10px;
+}
+
+#nyt-row{
+    background-color: #284B63;
+    border-radius: 5px;
+}
+
+#nyt-image{
+    margin-top: 90px;
+    margin-left: -10px;
+}
+
+#pokemon-row{
+    background-color: #284B63;
+    border-radius: 5px;
+}
+
+#pokemon-image{
+    margin-top: 65px;
+    margin-left: -10px;
+}
+
+#projects{
+ margin-left: 285px;
+}
