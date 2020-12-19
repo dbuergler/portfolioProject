@@ -21,19 +21,25 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#AboutMe">About Me<span class="sr-only">(current)</span></a>
+              <a href="#about-me"class="nav-link">About Me<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Experience</a>
+          <li class="nav-item active">
+              <a href="#experience-section"class="nav-link">My Experience</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+          <li class="nav-item active">
+            <div id="Skills">
+              <a href="#skills"class="nav-link">Skills</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Accomplishments & Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Let's Connect</a>
+            <li class="nav-item active">
+              <div id="Accomplishments&Projects">
+                <a href="#projects-section" class="nav-link">Accomplishments & Projects</a>
+              </div>
+            </li>
+          <li class="nav-item active">
+            <div id="Let'sConnect">
+              <a href="#contact-me-section" class="nav-link">Let's Connect</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -41,25 +47,26 @@
     <header class="header">
       <div class="jumbotron">
         <div id="main-title">
-          <h1 id= "name-title">Daniel Buergler</h1>
-          <h4>Web Developer</h4>
+          <h1 id= "name-title">Daniel Buergler
+          </h1>
+          <h1 style="font-size:15px">Junior Web Developer</h1>
         </div>
-
+        
       </div>
     </header>
     <div class="container">
-      <div class= "about-me">
+      <div id= "about-me">
       <div class="media">
         <div id="me">
           <img id="my-picture"src="assets/linkedin.jpg" class="align-self-start mr-3" alt="linkedin picture">
         </div>
         <div class="media-body">
-          <h1 class="mt-0">About Me</h1>
+          <h1 name="AboutMe" class="mt-0">About Me</h1>
           <p>Hi there! My name is Daniel Buergler. I am a web developer.</p>
           <p>With my experience as a program manager in the non-profit sector, I have always loved working with a team to obtain a goal or a mission. I have a love for learning, helping others, working hard, and obtaining a goal as a team. Most recently, as a graduate of Eleven Fifty Academy's Web Development Program, I have found an opportunity to strengthen my career journey into the coding world and seek a long career in the industry. </p>
           <p>You can usually find me watching sports, playing with my daughter, diving into a craft beer, coaching, or running. These are a few things I like to do outside of my day job, of course! Creating relationships is where my happy place lies and I cannot wait to bring my skillset to your team!</p>
           <h6 id="resume">
-            <a href="https://dbuergler.github.io/resume/">Download my Resume</a>
+            <a href="https://github.com/dbuergler/resume/raw/master-branch/Daniel%20Buergler%20Resume.pdf">Download my Resume</a>
           </h6>
         </div>
       </div>
@@ -69,14 +76,13 @@
       <hr class="my-4">
       <br>
       <br>
-      <section id ="highlight-section" tabindex ="-1">
+      <div id ="experience-section">
         <div class="container-fluid">
           <div class="row">
               <div class="col-lg-12">
                   <div class="card">
                       <div class="card-body">
                           <h4 id="my-experience"class="card-title mb-5">My Experience</h4>
-          
                           <div class="hori-timeline" dir="ltr">
                               <ul class="list-inline events">
                                   <li class="list-inline-item event-list">
@@ -125,16 +131,17 @@
                   </div>
               </div>
           </div>
-      </section>
+      </div>
       <br>
       <br>
       <hr class="my-4">
       <br>
       <br>
-    <div class="container-2">
+    <div id="skills">
+      <h1 class="skills-title">Skills</h1>
+    <div id="skills-section" class="container-2">
         <div class="row">
           <div class="skillsHeader col-lg-12 text-center">
-            <h1 class="skills-title">Skills</h1>
           </div>
           <div id= "skillsRow" class="firstrow">
             <img src="assets/HTML5_Logo_256.png" alt="HTML5 logo" id="HTML">
@@ -145,10 +152,11 @@
           </div>
         </div>
       </div>
+    </div>
       <hr class="my-4">
       <br>
       <br>
-    <section id="projects-section">
+    <div id="projects-section">
       <div id="container-projects">
         <div class="rowheading">
           <h1 class="accomplishments">Accomplishments & Projects</h1>
@@ -225,7 +233,7 @@
           <div id= "Pokemon API" class="card mb-3" style="max-width: 540px;">
             <div id= "pokemon-row" class="row">
               <div class="col-sm-4">
-                <a href="https://pokemon-apiwd70.web.app/" class="my-repls-webpage" target="_blank">
+                <a href="https://pokemon-apiwd70.firebaseapp.com/" class="my-repls-webpage" target="_blank">
                   <img id="pokemon-image" src="assets/pokemon.PNG" class= "rounded float-start" style="width: 200px" alt="pokemonAPI">
                 </a>
               </div>
@@ -240,13 +248,13 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <br>
     <br>
     <hr class="my-4">
     <br>
     <br>
-    <section id= "contact-me-form">
+    <div id= "contact-me-section">
       <h1 id="contact-title">Let's Connect</h1>
       <form id ="contact-form" method="post" action="https://formspree.io/f/mdopwqar">
         <div class="row uniform">
