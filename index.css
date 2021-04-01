@@ -34,6 +34,7 @@ body {
 
 #my-picture{
     box-shadow: 5px 10px #979dac;
+    width: 250px;
 }
 
 #main-title h1{
@@ -140,7 +141,7 @@ h2{
     padding: 20px;  
     border: solid 3px #979dac;
     border-radius: 10px;
-    margin-right: 280px;
+    margin-right: 130px;
 
 }
 
