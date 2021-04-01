@@ -7,12 +7,6 @@ body {
     margin: 0 auto;
 }
 
-#logo{
-    float:left;
-    text-align: left;
-    width: 100%;
-    position: relative;
-}
 
 .fixed-navbar{
     display: flex;
@@ -178,9 +172,8 @@ a {
 #skillsRow img{
     height: 5rem;
     width: auto;
-    margin: 1rem;
-    margin-left: 103px;
-    
+    margin: 2.5rem;
+    margin-left: 125px;
 }
 
 img{
@@ -242,13 +235,13 @@ img{
 }
 
 
-#repls-row{
+#comix-row{
     background-color: #002855;
     border-radius: 5px;
 }
 
-#repls-image{
-    margin-top: 65px;
+#comix-image{
+    margin-top: 30px;
     margin-left: -10px;
     box-shadow: 5px 10px #979dac;
 }
@@ -475,18 +468,19 @@ ul.actions li {
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
-    z-index: 99; 
     border: solid 2px #979dac; 
     border-radius: 5px;
     height: 30px;
     width: 40px;
-    outline: none; 
+    outline: none;
     background-color: #002855; 
     color: #979dac; 
-    cursor: pointer; 
 }
-  
-  #myBtn:hover {
+
+#myBtn:hover {
     background-color: white;
-  }
-  
+}
+
+#scroll {
+    scroll-behavior: smooth;
+}
