@@ -248,6 +248,15 @@ img{
 }
 
 
+#jb-image{
+    background-color: white;
+    margin-top: 18px;
+    margin-left: -11px;
+    box-shadow: 5px 10px #979dac;
+}
+
+
+
 #nyt-row{
     background-color: #002855;
     border-radius: 5px;
