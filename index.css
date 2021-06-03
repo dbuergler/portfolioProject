@@ -162,6 +162,7 @@ a {
     background-color: transparent;
 }
 
+
 #skillsRow{
     padding-bottom: 5rem;
 }
@@ -252,6 +253,12 @@ img{
     background-color: white;
     margin-top: 18px;
     margin-left: -11px;
+    box-shadow: 5px 10px #979dac;
+}
+
+#atlas-image{
+    margin-top: 100px;
+    margin-left: -13px;
     box-shadow: 5px 10px #979dac;
 }
 
